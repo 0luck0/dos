@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: Yuan的博客
-  text: 知识体系地图
+  text: 知识体系笔记
   tagline: 前端 后端 游戏开发 数字孪生
   image:
     src: /logo.svg

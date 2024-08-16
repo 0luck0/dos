@@ -5,45 +5,76 @@ export default {
     themeConfig: {
         logo: "/logo.svg", // 页面上显示的logo
         nav: [ // 页面右上角的导航
+            { text: "作品集", link: "/" },
             {
                 text: "前端",
                 items: [
-                    { text: '三剑客', link: '/articles/javaScript-core/构造函数、原型、原型链' },
-                    { text: 'typescript', link: '/articles/libs/VForm3低代码初体验' },
-                    { text: 'vue', link: '/articles/other/nvm管理node' },
-                    { text: 'react', link: '/articles/other/nvm管理node' },
+                    { text: 'js', link: '/articles/forent/base' },
+                    { text: 'typescript', link: '/articles/' },
+                    { text: 'vue', link: '/articles/other/' },
+                    { text: 'react', link: '/articles/' },
                     {
                         text: '3D', items: [
-                            { text: 'webgl', link: '/articles/javaScript-core/构造函数、原型、原型链' },
-                            { text: 'webgpu', link: '/articles/libs/VForm3低代码初体验' },
-                            { text: 'Babylonjs', link: '/articles/other/nvm管理node' },
-                            { text: 'Threejs', link: '/articles/other/nvm管理node' },
-                            { text: 'WEBGIS', link: '/articles/other/nvm管理node' },
+                            { text: 'Webgl', link: '/articles/' },
+                            { text: 'Webgpu', link: '/articles/libs/' },
+                            { text: 'Babylonjs', link: '/articles/other' },
+                            { text: 'Threejs', link: '/articles/' },
+                            { text: 'WEBGIS', link: '/articles/' },
                         ]
                     },
-                    { text: '2D', link: '/articles/other/nvm管理node' },
+                    {
+                        text: '2D', items: [
+                            { text: 'canvas', link: '/articles/' },
+                            { text: 'svg', link: '/articles/' },
+                            { text: 'echart', link: '/articles/' },
+                            { text: 'antv', link: '/articles/' },
+
+                        ]
+                    },
                 ]
             },
             {
                 text: "后端", items: [
-                    { text: 'python', link: '/articles/javaScript-core/构造函数、原型、原型链' },
-                    { text: 'c++', link: '/articles/libs/VForm3低代码初体验' },
-                    { text: '.net', link: '/articles/other/nvm管理node' },
-                    { text: 'golang', link: '/articles/other/nvm管理node' },
-                    { text: 'rust', link: '/articles/other/nvm管理node' },
+                    { text: 'python', link: '/articles/' },
+                    { text: 'c++', link: '/articles/' },
+                    { text: '.net', link: '/articles/' },
+                    { text: 'golang', link: '/articles/' },
+                    { text: 'rust', link: '/articles/' },
                 ]
             },
             {
-                text: '游戏',
+                text: '游戏开发',
+
                 items: [ // 可以配置成下拉
-                    { text: '虚幻引擎', link: '/articles/javaScript-core/构造函数、原型、原型链' },
-                    { text: 'Godot', link: '/articles/libs/VForm3低代码初体验' },
-                    { text: 'Babylonjs', link: '/articles/other/nvm管理node' },
+                    {
+                        text: '游戏引擎', items: [ // 可以配置成下拉
+                            { text: '虚幻引擎', link: '/articles/' },
+                            { text: 'Godot', link: '/articles/' },
+                            { text: 'Babylonjs', link: '/articles/' },
+                        ]
+                    },
+                    { text: '建模动画', link: '/articles/' },
+                    { text: '游戏设计基础', link: '/articles/' },
+                ]
+            },
+            {
+                text: '数字孪生',
+                items: [
+                    {
+                        text: '工业',
+                        items: [
+                            { text: '智慧园区', link: '/articles/' },
+                            { text: '智慧工厂', link: '/articles/' },
+
+                        ]
+                    },
+                    { text: '建筑', link: '/articles/' },
+
                 ]
             }
         ],
         sidebar: { // 侧边栏，可以分组
-            "/articles/vue/": [
+            "/articles/back/": [
                 {
                     text: "基础",
                     items: [
@@ -63,29 +94,29 @@ export default {
                     ],
                 },
             ],
-            "/articles/uniapp/": [
+            "/articles/forent/": [
                 {
-                    text: "基础",
+                    text: "js",
                     items: [
                     ],
                 },
                 {
-                    text: "代码段",
+                    text: "typescript",
                     items: [
                         {
-                            text: "一键登录",
+                            text: "语法",
                             link: "/articles/uniapp/一键登录",
                         }
                     ],
                 },
             ],
-            "/articles/javaScript-core/": [
+            "/articles/game/": [
                 {
                     text: "基础",
                     items: [
                         {
                             text: "1. 构造函数、原型、原型链",
-                            link: "/articles/javaScript-core/构造函数、原型、原型链",
+                            link: "/articles/",
                         },
                         {
                             text: "2. 执行上下文和执行上下文栈",
@@ -107,12 +138,12 @@ export default {
                     ],
                 },
             ],
-            "/articles/libs/": [
+            "/articles/dt/": [
                 {
                     items: [
                         {
                             text: "1. VForm3低代码初体验",
-                            link: "/articles/libs/VForm3低代码初体验",
+                            link: "/articles/",
                         },
                     ],
                 }
