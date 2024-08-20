@@ -1,6 +1,6 @@
 export default {
-    title: '博客的标题', // 博客的标题
-    description: '的个人博客', // 博客的介绍
+    title: 'Yuan的博客', // 博客的标题
+    description: 'Yua的个人博客', // 博客的介绍
     base: '/dos/', // 如果想用 https://mlyz.wdy.github.io/blog/ 访问，那么这句话必填
     themeConfig: {
         logo: "/logo.svg", // 页面上显示的logo
@@ -40,6 +40,15 @@ export default {
                     { text: '.net', link: '/articles/' },
                     { text: 'golang', link: '/articles/' },
                     { text: 'rust', link: '/articles/' },
+                ]
+            },
+            {
+                text: "网安", items: [
+                    { text: '渗透测试', link: '/articles/' },
+                    { text: '二进制', link: '/articles/' },
+                    { text: '安卓逆向', link: '/articles/' },
+                    { text: '硬件安全', link: '/articles/' },
+                    { text: '工控安全', link: '/articles/' },
                 ]
             },
             {
@@ -149,7 +158,10 @@ export default {
                 }
             ],
         },
-        socialLinks: [{ icon: "github", link: "https://github.com/0luck0" }], // 可以连接到 github
+        socialLinks: [{ icon: "github", link: "https://github.com/0luck0" },
+           
+
+        ], // 可以连接到 github
         docFooter: {
             prev: "上一篇",
             next: "下一篇",

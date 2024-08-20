@@ -15,6 +15,38 @@ hero:
     - theme: alt
       text: GitHub
       link: https://github.com/0luck0
+features:
+  - icon: 🛠️
+    title: 前端作品集
+    details: Lorem ipsum...
+    link: /guide/start
+    linkText: 参观
+  - icon: ⚡️
+    title: 后端作品集
+    details: Lorem ipsum... 
+    link: /guide/start
+    linkText: 参观
+  - icon: 🌞
+    title: 独立游戏作品集
+    details: Lorem ipsum...
+    link: /guide/start
+    linkText: 参观
+  - icon: 🌞
+    title: 数字孪生作品集
+    details: Lorem ipsum...
+    link: /guide/start
+    linkText: 参观
+  - icon: 🌞
+    title: 3D 艺术作品集
+    details: Lorem ipsum...
+    link: /guide/start
+    linkText: 参观
+  - icon: 🌞
+    title: 其他
+    details: Lorem ipsum...
+    link: /guide/start
+    linkText: 参观
+
 ---
 
 <style>
